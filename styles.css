@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway;
+}
+
+.wrapper {
+    width: 970px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: url('background.png');
+    padding: 0 40px 20px 40px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    background: rgba(256, 256, 256, 0.3);
+    padding: 20px;
+    line-height: 48px;
+    text-align: center;
+}
+
+nav a#compare {
+    margin-left: 411px;
+}
+
+header {
+    background-color: #C84F00;
+    margin: 20px 0 40px 0;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    color: #FFF;
+    font-size: 28px;
+}
+
+    header input {
+        background: none;
+        border: none; 
+        border-bottom: 1px solid #FFF;
+        outline: none;
+        color: #FFF;
+        text-align: center;     
+    }
+
+main {
+    background-color: #F2E9D6;
+    padding: 5px 30px 30px 30px;
+    position: relative;
+}
+
+    main p {
+        width: 50%;
+        line-height: 30px;
+    }
+
+    main h2 {
+        color: #FFF;
+        background-color: #C84F00;
+        display: inline-block;
+        padding: 5px;
+        position: absolute;
+        top: 10px;
+        left: -27px;
+    }
+
+section ul {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #EBE2CF;
+    width: 8%;
+    padding: 0;
+    text-align: center;
+    margin: 2px;
+    vertical-align: top;
+}
+
+    section ul li {
+        margin-bottom: 3px;
+        padding: 5px 0 5px 0;
+        color: #FFF;
+        background-color: #258533;
+        position: relative;
+    }
+
+    li.notsupported {
+        background-color: #810000;
+    }
+
+    li.partiallysupported {
+        background-color: #94700C;   
+    }
+
+    li.blank {
+        background: none;
+    }
+
+        section ul li div {
+            position: absolute;
+            background-color: #FFF;
+            color: #000;
+            top: 3%;
+            left: 1%;
+            font-size: 8px;
+            display: inline-block;
+            padding: 0 2px 0 2px;
+        }
+
+section h4 {
+    display: inline-block;
+    width: 8%;
+    text-align: center;
+    margin: 2px;
+    padding: 10px 0 10px 0;
+    border-bottom: 4px solid #000;
+}
+
